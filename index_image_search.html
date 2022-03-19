@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Search</title>
+        <style>
+            #form{
+                text-align: center;
+            }
+            a{
+                position:relative;
+                top: 10px;
+                left: 1350px;
+                font-size: 20px;
+            }
+            input[type=submit]{
+                position:relative;
+                bottom: 80px;
+                width: 10%;
+                padding: 10px 10px;
+                margin: 8px 4px;
+                box-sizing: border-box;
+                border: 1px solid black;
+                border-radius: px;
+            }
+            input[type=text]{
+                font-size: 16px;
+                width: 60%;
+                position:relative;
+                bottom: 80px;
+                padding: 12px 20px 12px 40px;
+                margin: 30px 0px;
+                box-sizing: border-box;
+                border: 1px solid black;
+                border-radius: 6px;
+                background-image: url('magnifine-glass.png');
+                background-position: 10px 12px;
+                background-repeat: no-repeat;
+            }
+            h1{
+                text-align: center;
+                font-size: 150px;
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="index.html">Google Search</a>
+        <h1>Google Image</h1>
+        <form action="http://images.google.com/images" id="form">
+            <div>
+            <input type="text" name="q" placeholder="Search Image Here.."><br>
+            <input type="submit" value="Google Search">
+            </div>
+        </form>
+    </body>
+</html>

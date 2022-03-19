@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            #form{
+                text-align: center;
+            }
+            a[target=img]{
+                position:relative;
+                top: 10px;
+                left: 1240px;
+                font-size: 20px;
+            }
+            a[target=adv]{
+                position:relative;
+                top: 10px;
+                left: 1250px;
+                font-size: 20px;
+            }
+            input[type=submit]:focus {
+                background-color: lightblue;
+              }
+            input[type=submit]{
+                position:relative;
+                bottom: 100px;
+                width: 10%;
+                padding: 10px 10px;
+                margin: 8px 4px;
+                box-sizing: border-box;
+                border: 1px solid black;
+                border-radius: px;
+            }
+            input[type=text]{
+                font-size: 16px;
+                width: 60%;
+                position:relative;
+                bottom: 100px;
+                padding: 12px 20px 12px 40px;
+                margin: 30px 0px;
+                box-sizing: border-box;
+                border: 1px solid black;
+                border-radius: 6px;
+                background-image: url('magnifine-glass.png');
+                background-position: 10px 12px;
+                background-repeat: no-repeat;
+            }
+            h1{
+                text-align: center;
+                font-size: 150px;
+                color: brown;
+            }
+        </style>
+        <title>Search</title>
+    </head>
+    <body>
+            <a href="index_image_search.html" target="img">Image Search</a>
+            <a href="index_advanced_search.html" target="adv">Advanced Search</a>
+            <h1>Google</h1>
+            <div>
+                <form action="https://google.com/search" id="form">
+                    <div>
+                        <input type="text" name="as_q" placeholder="Search Google or type a URL"><br>
+                        <input type="submit" value="Google Search">
+                        <input value="I'm Feeling Lucky" name="btnI" type="submit">
+                    </div>
+                </form>
+            </div>
+    </body>
+</html>
